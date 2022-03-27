@@ -1,7 +1,33 @@
 {
   "name": "v3-transitions",
-  "private": true,
-  "version": "0.0.1",
+  "private": false,
+  "version": "0.1.0",
+  "description": "Reusable transition components",
+  "keywords": [
+    "transitions",
+    "animations",
+    "fade",
+    "vue"
+  ],
+  "author": {
+    "name": "50rayn",
+    "email": "soryngitlan@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "50rayn/v3-transitions",
+    "directory": "packages/v3-transitions"
+  },
+  "homepage": "https://github.com/50rayn/v3-transitions",
+  "bugs": {
+    "url": "https://github.com/50rayn/v3-transitions/issues",
+    "email": "soryngitlan@gmail.com"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "license": "MIT",
   "main": "dist/v3-transitions.umd.js",
   "module": "dist/v3-transitions.es.js",
   "types": "dist/index.d.ts",

@@ -1,6 +1,6 @@
 # v3-transitions
 
-[![NPM version](https://img.shields.io/npm/v/vue2-transitions.svg?style=flat)](https://npmjs.com/package/v3-transitions) [![NPM downloads](https://img.shields.io/npm/dm/vue2-transitions.svg?style=flat)](https://npmjs.com/package/v3-transitions)
+[![NPM version](https://img.shields.io/npm/v/v3-transitions.svg?style=flat)](https://npmjs.com/package/v3-transitions) [![NPM downloads](https://img.shields.io/npm/dm/v3-transitions.svg?style=flat)](https://npmjs.com/package/v3-transitions)
 
 It's a fork of [vue2-transitions](https://github.com/BinarCode/vue2-transitions), but added support of Vue3.
 

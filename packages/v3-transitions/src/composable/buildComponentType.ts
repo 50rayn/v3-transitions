@@ -1,3 +1,3 @@
-import { Transition, TransitionGroup } from 'vue';
+import { Component, Transition, TransitionGroup } from 'vue';
 
-export default (props) => props.group ? TransitionGroup : Transition
+export default (props): Component => props.group ? TransitionGroup : Transition

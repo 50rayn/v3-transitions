@@ -64,18 +64,18 @@ props: {
    */
   duration: {
     type: [Number, Object],
-  default: 300
+    default: 300
   }
   /**
    * Whether the component should be a `transition-group` component.
    */
   group: Boolean,
-    /**
-     * Transition tag, in case the component is a `transition-group`
-     */
-    tag: {
+  /**
+   * Transition tag, in case the component is a `transition-group`
+   */
+  tag: {
     type: String,
-  default: 'span'
+    default: 'span'
   },
   /**
    *  Transform origin property https://tympanus.net/codrops/css_reference/transform-origin/.
@@ -83,16 +83,16 @@ props: {
    */
   origin: {
     type: String,
-  default: ''
+    default: ''
   },
   /**
    * Element styles that are applied during transition. These styles are applied on @beforeEnter and @beforeLeave hooks
    */
   styles: {
     type: Object,
-  default: () => {
+    default: () => {
       return {
-        animationFillMode: 'both',
+        animationFillMode: 'both',  
         animationTimingFunction: 'ease-out'
       }
     }
@@ -104,7 +104,7 @@ props: {
 Each transition can be used as a `transition-group` by adding the `group` prop to one of the desired transitions.
 ```html
 <fade-transition group>
-    <!--keyed children here-->
+   <!--keyed children here-->
 </fade-transition>
 ```
 Gotchas/things to watch:
